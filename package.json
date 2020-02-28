@@ -1,0 +1,36 @@
+{
+  "name": "chinchee",
+  "version": "0.8.0",
+  "description": "Chinchee pageboard site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kapouer/chinchee.git"
+  },
+  "author": "Jérémy Lal <kapouer@melix.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kapouer/chinchee/issues"
+  },
+  "homepage": "https://github.com/kapouer/chinchee#readme",
+  "dependencies": {
+    "@pageboard/gallery": "^0.8.7",
+    "@pageboard/email": "^0.8.10",
+    "@pageboard/google": "^0.8.10",
+    "@pageboard/html": "^0.8.29",
+    "@pageboard/site": "^0.8.26",
+    "@pageboard/write": "^0.8.9"
+  },
+  "pageboard": {
+    "directories": [
+      "elements",
+      "ui"
+    ],
+    "elements": [
+      "elements/"
+    ]
+  }
+}
